@@ -1,0 +1,6 @@
+pandas
+pandas-datareader
+numpy
+matplotlib
+beautifulsoup4
+urllib3
