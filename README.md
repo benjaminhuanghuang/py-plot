@@ -1,5 +1,6 @@
 ## Reference
 - https://pythonprogramming.net/matplotlib-intro-tutorial/
+- https://matplotlib.org/gallery.html
 
 ## Setup
 ```
