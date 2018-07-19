@@ -15,7 +15,7 @@ ax1 = fig.add_subplot(111)
 ax1.plot(x, y1)
 ax1.set_ylabel('Y1')
 
-ax2 = ax1.twinx()   # 
+ax2 = ax1.twinx()   # creat y 
 ax2.plot(x, y2, 'r')
 ax2.set_ylabel('Y2')
 

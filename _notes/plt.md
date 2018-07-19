@@ -70,3 +70,6 @@ color + marker + line style
 
 ## Axis range and tick
 
+## Twin x and y
+
+## Annotate (comment) and Text
