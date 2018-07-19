@@ -4,7 +4,7 @@ import matplotlib
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 
-x = np.linspace(0, 10, 1000)
+x = np.linspace(0, 10, 1000)  # 1000 numbers between 0 to 10
 y = np.sin(x) + 1
 z = np.cos(x**2) + 1
 
