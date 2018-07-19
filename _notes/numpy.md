@@ -19,7 +19,7 @@ col1, col2, col5 = np.loadtxt('1.csv', delimiter=',', skiprows=1, usecols=(0, 1,
 
 ## Index and slice
 
-## Random
+## Random data generation
 ```
 np.random.seed(19680801)
 
@@ -28,6 +28,10 @@ x = np.random.randn(1000)  # creat 1000 random numbers
 x = np.random.normal(0, 1, 1024) # create 1024 numbers, mean is 0 , sd is 1
 
 x = np.linspace(-10, 10, 100)    # 100 numbers between -10 to 10
+
+mu = 100   # mean of distribution
+sigma = 20  # standard deviation of distribution
+data = mu + sigma * np.random.randn(20000)
 ```
 
 ## Functions
