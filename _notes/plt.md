@@ -57,3 +57,8 @@ color + marker + line style
     kp:
     cx--
 ```
+
+## Matplotlib Objects
+- FigureCanvas
+- Figure
+- Axes
