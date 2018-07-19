@@ -19,6 +19,14 @@ col1, col2, col5 = np.loadtxt('1.csv', delimiter=',', skiprows=1, usecols=(0, 1,
 
 ## Index and slice
 
+## Random
+```
+x = np.random.randn(1000)  # creat 1000 random numbers
+
+x = np.random.normal(0, 1, 1024) # create 1024 numbers, mean is 0 , sd is 1
+
+x = np.linspace(-10, 10, 100)    # 100 numbers between -10 to 10
+```
 
 ## Functions
 ```
