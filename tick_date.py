@@ -15,6 +15,11 @@ values = np.random.rand(len(dates))
 
 fig = plt.figure()
 ax = plt.gca()
-ax.plot_date(dates, values, linestyle='-')
+ax.plot_date(dates, values, linestyle='-', marker='')
+# format date
+date_format = matplotlib.dates.DateFormatter('%Y-%m-%d')
+ax.xaxis.set_major_formatter(date_format)
+fig.autofmt_xdate()
+
 
 plt.show()
