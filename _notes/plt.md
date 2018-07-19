@@ -72,4 +72,5 @@ color + marker + line style
 
 ## Twin x and y
 
-## Annotate (comment) and Text
+## Annotate (comment), Text and MathTex
+
