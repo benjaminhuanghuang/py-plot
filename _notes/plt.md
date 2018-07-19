@@ -66,3 +66,7 @@ color + marker + line style
 
 ## Grid
 
+## Legend
+
+## Axis range and tick
+

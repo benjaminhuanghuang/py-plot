@@ -8,8 +8,13 @@ x = np.linspace(-1, 1, 50)
 y1 = 2 * x + 1
 y2 = x ** 2
 
+# specify legend in plot()
 plt.plot(x, y1, label='up')
 plt.plot(x, y2, label='down')
-plt.legend(labels=['aaa', 'bbb'], loc='best')   # show legend
+
+plt.legend(loc=1)   # loc values 0 to 10
+plt.legend(ncol=2)   # display legend in columns
+
+plt.legend(loc='best')   # show legend
 
 plt.show()
