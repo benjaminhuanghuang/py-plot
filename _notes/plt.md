@@ -75,3 +75,12 @@ color + marker + line style
 ## Annotate (comment), Text and MathTex
 
 ## Fill
+
+## Polar
+```
+    ax = plt.subplot(111, projection='polar') 
+```
+## Disply chinese
+```
+    from matplotlib.font_manager import FontProperties
+```

@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
-from matplotlib.font_manager import FontProperties
+from matplotlib.font_manager import FontProperties  # display chinese 
 
 plt.style.use('ggplot')
 
@@ -36,7 +36,7 @@ def setPlot(plot, playerName, color, title):
     plot.set_xticks(theta)
     # ax1.set_xticklabels(ability_label, y=0.5, fontproperties = font)  # for chinese
     plot.set_xticklabels(ability_label, y=0.1)
-    plot.set_title (title, color=color, size=14)
+    plot.set_title (title, color=color, size=14, position=(0.5, 1) )
 
 setPlot(ax1, 'M', 'r', 'Player1')
 setPlot(ax2, 'H', 'g', 'Player2')
