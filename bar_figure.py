@@ -1,3 +1,11 @@
+'''
+    Display multi plot on figure
+
+
+    ax = fig.add_subplot(xyz)
+    return Axes intance.
+    xyz: rows, cols, subplot location
+'''
 import numpy as np
 import matplotlib
 matplotlib.use('TkAgg')
