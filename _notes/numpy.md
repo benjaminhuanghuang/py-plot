@@ -27,6 +27,8 @@ x = np.random.randn(1000)  # creat 1000 random numbers
 
 x = np.random.normal(0, 1, 1024) # create 1024 numbers, mean is 0 , sd is 1
 
+x, y = np.random.normal(size=(2, 100))
+
 x = np.linspace(-10, 10, 100)    # 100 numbers between -10 to 10
 
 mu = 100   # mean of distribution
